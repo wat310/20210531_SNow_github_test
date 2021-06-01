@@ -9,10 +9,10 @@
         <record_for_rollback>false</record_for_rollback>
         <run_once>true</run_once>
         <script><![CDATA[var gr = new GlideRecord('x_539771_20210531_0531_test_table');
-gr.addQuery("name","test");
+gr.addQuery("name","test123");
 gr.query();
 
-gs.info("20210531_github_test")]]></script>
+gs.info("20210531_github_TEST");]]></script>
         <sys_class_name>sys_script_fix</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-05-31 10:38:52</sys_created_on>
@@ -24,7 +24,7 @@ gs.info("20210531_github_test")]]></script>
         <sys_scope display_value="20210531_test2">86058b881b603010c5cac843604bcbce</sys_scope>
         <sys_update_name>sys_script_fix_bb38cf8c1b603010c5cac843604bcbc8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-01 05:04:59</sys_updated_on>
+        <sys_updated_on>2021-06-01 05:12:46</sys_updated_on>
         <unloadable>false</unloadable>
     </sys_script_fix>
 </record_update>
